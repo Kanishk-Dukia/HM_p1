@@ -1,7 +1,10 @@
 .title{
     text-align: center;
+    text-shadow: 2px 2px white;
     margin-bottom: 0%;
     padding-bottom: 1%;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    box-shadow: 1px 3px , -1em 0 0.4rem ;
   
 }
 .container{
@@ -16,4 +19,14 @@ body{
 
 .input-box{
     margin: 10px 0;
+}
+.content{
+    /* border: black solid; */
+    /* background-color: white; */
+    padding: 1rem;
+   
+    margin-top: 1rem;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    /* border-radius: 25px; */
+    
 }
