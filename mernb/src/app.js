@@ -39,6 +39,9 @@ app.get("/login", (req, res) => {
 app.get("/contact", (req, res) => {
   res.render("contact");
 })
+app.get("/index", (req, res) => {
+  res.render("index");
+})
 
 
 // create a new user in out database
@@ -49,7 +52,6 @@ app.post("/register", async (req, res) => {
     const cpassword = req.body.confirm_password;
 
     if (password === cpassword) {
-
       const registerEmployee = new Register({
         Full_name: req.body.Full_name,
         password: password,
